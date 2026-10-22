@@ -1,0 +1,45 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: darkblue;
+    justify-self: center;
+    width: fit-content;
+    border: 2mm ridge pink;
+}
+
+b {
+    font-size: 25px;
+}
+
+img {
+    float: right;
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 3px solid #999999;
+    background-color: #dddddd
+}
+
+th,
+td {
+    padding: 0.4em;
+    vertical-align: top;
+}
+
+tr :nth-child(2) {
+    text-align: center;
+    width: 15%;
+}
+
+tr :nth-child(1),
+tr :nth-child(3){
+    text-align: left;
+}
+
